@@ -29,7 +29,7 @@ st.set_page_config(
 )
 
 
-openai.api_key = "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"
+openai.api_key = ""
 
 @st.cache_data(persist=True, show_spinner=False)
 def openai_completion(prompt):
